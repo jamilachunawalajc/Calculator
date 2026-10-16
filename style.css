@@ -70,3 +70,44 @@ h1 {
   background-color: pink;
   color:brown;
 }
+
+@media screen and (max-width: 1240px) {
+    .container {
+        width: calc(100% - 20px);
+        max-width: 320px;
+        padding: 15px 5px;
+        margin:0 auto;
+        box-sizing: border-box;
+  
+    }
+
+    .button {
+        width: 55px;
+        padding: 12px 0;
+        margin: 0 2px;
+        box-sizing: border-box;
+    }
+
+    .row input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        width: 50px;
+        padding: 10px 0;
+        margin: 0 2px;
+        box-sizing: border-box;
+    }
+
+
+}
